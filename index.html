@@ -6,7 +6,7 @@ title: Best Girl
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li> <img src="/assets/{{ post.pic }}" height=100 width=100></img><span><span class="name">{{ post.title }}</span><span class="show"> &raquo; {{ post.series }}</span></span></li>
+      <li><a href="{{ post.url }}"><img src="/assets/{{ post.pic }}" height=100 width=100></img></a><span><span class="name">{{ post.title }}</span><span class="show"> &raquo; {{ post.series }}</span></span></li>
     {% endfor %}
   </ul>
 </div>

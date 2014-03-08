@@ -194,3 +194,9 @@ font-family: 'amatic_scregular';
   font-weight: 200;
 }
 
+.post-name {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 4em;
+  margin-top: 50px;
+  text-align: left;
+}
