@@ -14,11 +14,14 @@
       <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 
   </head>
-  <body style="background: url('/assets/{{ page.bk }}') no-repeat top;">
+  <body style="background: url('/assets/{{ page.bk }}');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;">
 
   <div class="site">
     <div class="post">
-      <h1 class="title">{{ page.title }}</h2>
+      <h1 class="title" style:"line-height: 4em;">{{ page.title }}</h2>
           {{ content }}
     </div>
   </div>
