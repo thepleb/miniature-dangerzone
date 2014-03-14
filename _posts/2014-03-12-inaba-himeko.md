@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inaba Himeko"
+title: "Himeko Inaba"
 series: "Kokoro Connect"
 pic: "inaba-kokoro.png"
 bk: "inaba-bk.png"
